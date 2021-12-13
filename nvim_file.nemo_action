@@ -1,0 +1,10 @@
+[Nemo Action]
+Active=true
+Name=Open directory in Neovim
+Comment=Opens current folder on neovim
+Exec=gnome-terminal -e "nvim %F"
+Icon-Name=nvim
+Selection=none
+Extensions=any;
+Quote=double
+Dependencies=nvim;gnome-terminal

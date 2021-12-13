@@ -1,0 +1,10 @@
+[Nemo Action]
+Active=true
+Name=Open in Neovim
+Comment=Opens selected file on neovim
+Exec=x-terminal-emulator -e "nvim %F"
+Icon-Name=nvim
+Selection=s
+Extensions=any;
+Quote=double
+Dependencies=nvim;x-terminal-emulator
